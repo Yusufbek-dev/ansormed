@@ -6,7 +6,6 @@ ul li {
 }
 a {
   text-decoration: none;
-  color: #222222;
 }
 .container {
   width: 1240px;
@@ -101,21 +100,29 @@ a {
   text-transform: uppercase;
   color: #222222;
 }
-.sign-up {
+.nav-item a {
+  color: #222;
+}
+.signup-btn {
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 700; 
   font-size: 15px;
   letter-spacing: 1px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   padding: 12px 24px;
   width: 189px;
   height: 47px;
   background-color: #DE2E54;
   border: 2px solid #DE2E54;
   border-radius: 8px;
+  color: #FFFFFF;
+}
+.signup-btn:hover {
+  background-color: #FFFFFF;
+  color: #DE2E54;
+}
+.signup-btn:active {
+  opacity: 0.6;
 }
 .main-info {
   display: flex;
@@ -232,4 +239,12 @@ color: #222222;
  }
  .footer-bottom .logo-icon p {
    color: #FFFFFF;
+ }
+
+ .universal-btn:hover{
+   color: #DE2E54 !important;
+ }
+
+ .universal-btn:active{
+   opacity: 0.6;
  }
