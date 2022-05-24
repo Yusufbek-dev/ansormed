@@ -1,0 +1,235 @@
+* {
+  box-sizing: border-box;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #222222;
+}
+.container {
+  width: 1240px;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-icon {
+  display: flex;
+  align-items: center;
+}
+.logo-icon p{
+  margin-left: 16px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  color: #222222;
+}
+.logo-img{
+  margin-left: 16px;
+  width: 50px;
+  height: 50px;
+}
+
+.first-section {
+  background-color: #0EB4C1;
+}
+
+.main-info div {
+  width: 500px;
+  height: 293px;
+  left: 170px;
+  top: 218px;
+
+}
+.main-info div h1{
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+
+}
+.main-info div p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #FFFFFF;
+  margin-bottom: 36px;
+}
+.main-info-btn {
+  text-transform: uppercase;
+  padding: 12px 24px;
+  border: 2px solid #DE2E54;
+  border-radius: 8px;
+  background-color: #DE2E54;
+  color:#fff;
+}
+.main-info-img{
+  width: 423px;
+  height: 504px;
+  left: 847px;
+  top: 127px;
+  margin-left: 177px;
+  margin-top: 29px;
+}
+
+.nav-items {
+  display: flex;
+}
+.nav-item {
+  margin-right: 20px;
+}
+.nav-item {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #222222;
+}
+.sign-up {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  width: 189px;
+  height: 47px;
+  background-color: #DE2E54;
+  border: 2px solid #DE2E54;
+  border-radius: 8px;
+}
+.main-info {
+  display: flex;
+  align-items: center;
+}
+.menu-items {
+  display: flex;
+}
+
+/* second section */
+
+.second-header-text {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  text-align: center;
+  margin-top: 120px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+  color: #000000;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 80px;
+}
+
+.menu-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 24px;
+}
+
+.menu-text {
+  margin-left: 36px;
+  padding-right: 288px;
+}
+.menu-text h3 {
+  font-family: 'Open Sans Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 120%;
+color: #222222;
+}
+
+.menu-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  background: #DE2E54;
+  border: 2px solid #DE2E54;
+  border-radius: 8px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  margin: auto;
+  }
+  
+  .footer-top {
+    height: 253px;
+    left: 1px;
+    top: 2117px;
+    background: #0EB4C1;
+  }
+  .footer-top h3 {
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    line-height: 120%;
+    color: #FFFFFF;
+    padding-top: 36px;
+  }
+.connect-link {
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 396px;
+}
+  .footer-link-btn {
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 120%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 3px solid #FFFFFF;
+    padding: 12px 24px;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+ .footer-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  height: 97.94px;
+  left: 0px;
+  top: 2370px;
+  background: #222222;
+ }
+ .footer-bottom a {
+   color: #FFFFFF;
+ }
+ .footer-nav-list {
+   margin-left: 418px;
+ }
+ .footer-bottom .logo-icon p {
+   color: #FFFFFF;
+ }
