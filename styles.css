@@ -185,7 +185,17 @@ color: #222222;
   text-transform: uppercase;
   margin: auto;
   }
-  
+.menu-btn:hover {
+  background: #fff;
+  border: 2px solid #DE2E54;
+  color: #DE2E54;
+  }
+.menu-btn:active {
+  background: #DE2E54;
+  border: 2px solid #DE2E54;
+  color:#FFFFFF;
+  opacity: 0.6;
+  }
   .footer-top {
     height: 253px;
     left: 1px;
@@ -220,6 +230,13 @@ color: #222222;
     padding: 12px 24px;
     border-radius: 10px;
     margin-right: 10px;
+  }
+  .footer-link-btn:hover{
+    border: 3px solid #DE2E54;
+    background-color: #DE2E54;
+  }
+  .footer-link-btn:active{
+    opacity:0.6;
   }
  .footer-bottom {
   display: flex;
